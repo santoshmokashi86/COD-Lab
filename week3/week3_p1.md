@@ -2,7 +2,7 @@
 ### Statement : <Convert a 32-bit value from Little Endian to big endian format using RISC-V assembly>
 
 ### Name of the file:
-<lab3_prog1.s>
+<week3_p1.s>
 
 ### Observation - Single cycle
  < We are extracting least significant byte from the given number by using the andi and storing it in a register then we shift the result by 24 bits then we shift the original number by 6 bits towards right then again repeat the process from begining by anding and shifting bits accordingly , by doing this we successfully convert a 32-bit little Endian to Big-Endian > 
